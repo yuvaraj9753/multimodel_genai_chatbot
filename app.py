@@ -1,35 +1,3 @@
-"""import streamlit as st
-
-def setup_ui():
-    st.set_page_config(
-        page_title="GenAI Chatbot",
-        page_icon="🤖",
-        layout="wide"
-    )
-    st.title("🤖 GenAI Chatbot")
-    st.caption("🚀 Multi Model Chatbot")
-
-def model_selector():
-    st.sidebar.header("⚙️ Settings")
-
-    model = st.sidebar.selectbox(
-        "Choose Model",
-        ["Groq", "Gemini"]
-    )
-
-    # clear chat button also here 👇
-    if st.sidebar.button("🗑 Clear Chat"):
-        st.session_state.chat_history = []
-
-    return model
-
-def display_chat(chat_history):
-    for msg in chat_history:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])"""
-
-
-
 import streamlit as st
 
 def setup_ui():
